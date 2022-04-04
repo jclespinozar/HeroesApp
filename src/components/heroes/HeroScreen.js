@@ -19,11 +19,11 @@ export const HeroScreen = ({ history }) => {
 
   return (
     <div>
-      {hero != {} && (
+      {hero.length !== 0 ? (
         <div className="row mt-5">
           <div className="col-4">
             <img
-              src={hero.thumbnail.path + "." + hero.thumbnail.extension}
+              src={hero?.thumbnail?.path + "." + hero?.thumbnail?.extension}
               className="img-thumbnail"
             />
           </div>
@@ -63,6 +63,8 @@ export const HeroScreen = ({ history }) => {
             </button>
           </div>
         </div>
+      ) : (
+        <p>No existe heroe</p>
       )}
     </div>
   );
