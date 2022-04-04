@@ -1,0 +1,16 @@
+.description-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+          line-clamp: 2; 
+  -webkit-box-orient: vertical;
+}
+
+.card-img-custom{
+  width: 100%;
+  height: 265px;
+  inset: 0;
+  object-fit: cover;
+
+}

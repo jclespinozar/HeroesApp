@@ -4,7 +4,7 @@ import { getHeroesById } from "../../selectors/getHeroesById";
 export const HeroScreen = ({history}) => {
   const {heroId} = useParams();
   const [hero] = getHeroesById(heroId);
-  console.log(history);
+  
   const handleReturn = () => {
     console.log(history);
   }

@@ -1,11 +1,11 @@
 import { HeroList } from "../heroes/HeroList";
 
 export const Screen = () => {
-  return(
+  return (
     <div>
-      <h1> Marvel Screen</h1>
+      <h1 className="text-center"> Marvel Screen</h1>
       <hr />
       <HeroList name="A" />
     </div>
-  )
+  );
 };

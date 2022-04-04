@@ -1,0 +1,10 @@
+.branding {
+    background-color: #FF452B;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+}
+.navbar-light  .navbar-text{
+  color: #FFFFFF;
+  font-weight: bold;
+  font-family: Roboto;
+}
